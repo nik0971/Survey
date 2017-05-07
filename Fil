@@ -1,0 +1,60 @@
+01-04-2017 	/ http://kmkeen.com/rtl-demod-guide/
+		/ http://kmkeen.com/rtl-power/
+		/ http://osmocom.org/projects/sdr/wiki/rtl-sdr
+
+(OK)Faire les premiers pas du programme
+(OK)Travailler sur la gestion optionnelle de heatmap
+(NOK)Utilisation de SOX ou ALSA ou rtl_fmpour la partie wav (à creuser)
+(NOK)Gestion des cas d'erreur de saisie ....WORK IN PROGRESS
+(NOK)Faire un module de parametrage, incluant le repertoire de travail et les differentes choses a changer.
+(OK)Traiter le nom de fichier avec date heure et param de surv.
+(NOK)Multi-dongle
+
+03-04-2017
+
+(NOK)pickler les config utilisées
+---Gain max 50!
+(OK)Mesure de bruit avec bouchon 75ohms (fais avec un 50ohms)
+
+04-04-2017
+
+(NOK)Securisation flux par ssh
+(OK)Mot de passe
+*********************** VOIR POUR CACHER LE MDP DANS LE CODE
+
+05-04-2017
+
+(OK)Dans la saisie des infos, high_fre must be > low_freq
+
+09-04-2017
+
+(NOK)Que fait le systeme sans gain spécifié?
+(OK)Tester hackrf_sweep
+************************ POUR L'INSTANT, TROP GOURMAND EN TAILLE DE CSV
+
+10-04-2017
+
+(OK) Reprendre la fonction surveilance en la decoupant et faire une seule fonction par paramètre  dans le but de pouvoir les réutiliser plus tard
+
+17-04-2017
+
+(NOK) faire la fin de programme ( sys exit)
+
+25-04-2017
+
+(NOK) Edition config
+(NOK) Rappel config 'attention penser au rappel de file pour avoir l'hordatage
+
+
+---------------------------------------------------------------------------------------------------
+06-05-2017
+
+RESTE A FAIRE
+
+-Option HF
+-Extraction fichiers heatmap
+-Fichier ini
+-Trouver le bon ratio bin_size/span
+-Modifier une config existante ( un ou plusieurs parametres, suppression)
+-OK- linecache à vider
+- 
